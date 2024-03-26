@@ -15,9 +15,6 @@ list-style-type: none;
 nav li{
     display: inline;
 }
-.tab {
-    tab-size: value;
-}
 .myDiv {
     text-align: center;
     font-weight: 900; 
