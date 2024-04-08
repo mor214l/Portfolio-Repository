@@ -7,3 +7,121 @@
                     <li><a href="url">https://developer.mozilla.org/en-US/</a></li>
                 </ul>
             </section>
+            .textmid2 {
+                width: 40%;
+                height: 300px;
+                padding: 8px 6px;
+                box-sizing: border-box;
+                border: 2px solid #000000;
+                border-radius: 4px;
+                background-color: #898376cc;
+                font-size: 16px;
+                resize: none;
+                position: relative;
+                text-align: center;
+                top: 60%;
+                left: 5%;
+            }
+            .textmid3 {
+                width: 40%;
+                height: 300px;
+                padding: 8px 6px;
+                box-sizing: border-box;
+                border: 2px solid #000000;
+                border-radius: 4px;
+                background-color: #898376cc;
+                font-size: 16px;
+                resize: none;
+                position: absolute;
+                text-align: center;
+                top: 803px;
+                left: 53%;
+            }
+            p {
+                /* width: 30%;
+                height: 188px; */
+                padding: 8px 6px;
+                box-sizing: border-box;
+                border: 2px solid #000000;
+                border-radius: 4px;
+                background-color: #898376cc;
+                font-size: 16px;
+                resize: none;
+                text-align: center;
+            }
+            .textleft {
+                width: 30%;
+                height: 188px;
+                padding: 8px 6px;
+                box-sizing: border-box;
+                border: 2px solid #000000;
+                border-radius: 4px;
+                background-color: #898376cc;
+                font-size: 16px;
+                resize: none;
+                text-align: center;
+                top: 470px;
+            }
+            .textmid {
+                width: 30%;
+                height: 190px;
+                padding: 8px 6px;
+                box-sizing: border-box;
+                border: 2px solid #000000;
+                border-radius: 4px;
+                background-color: #898376cc;
+                font-size: 16px;
+                resize: none;
+                position: absolute;
+                right: 439px;
+                text-align: center;
+                top: 465px;
+            }
+            .textright {
+                width: 30%;
+                height: 190px;
+                padding: 8px 6px;
+                box-sizing: border-box;
+                border: 2px solid #000000;
+                border-radius: 4px;
+                background-color: #898376cc;
+                font-size: 16px;
+                resize: none;
+                position: absolute;
+                right: .5%;
+                text-align: center;
+                top: 465px;
+            }
+
+
+
+            <br class="separator2">
+            &nbsp;
+            <br class="separator2 item-4">
+            <div class="myDiv"> 
+                ABOUT ME
+            </div>
+            <br class="separator">
+
+            <div class="item item-4">
+                Why UI/UX Deisgn?
+            </div>
+            <div class="item item-5">
+                My Goal
+            </div>
+            .separator2 {
+                width: 70%;
+                margin: 0 auto;
+                display: block;
+                content: "";
+                border-bottom: 1px solid black;
+                margin-top: 20px; 
+            }
+                
+            <br class="separator item-6">
+            <div class="item item-7">
+                Why UI/UX Deisgn?
+            </div>    
+            <div class="item item-8">
+                My Goal
+            </div>  
