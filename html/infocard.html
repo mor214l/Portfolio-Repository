@@ -13,7 +13,7 @@
                 <h1 class="myDivH">&nbsp; Brian Robinson</h1>
                 </div>
                 <ul>
-                <li class="myDivHe">Home</li>
+                <li class="myDivHe"> <a href="index.html">Home</a></li>
                 <li> | </li>
                 <li class="myDivHe"><a href="about.html">About</a></li>
                 <li> | </li>
@@ -21,19 +21,24 @@
                 <li> | </li>
                 <li class="myDivHe"><a href="education.html">Education</a></li>
                 <li> | </li>
-                <li class="myDivHe"><a href="history.html">History   </a></li>
+                <li class="myDivHe"><a href="projects.html">Projects   </a></li>
                 </ul>
             </nav>
         </header>
         
         <main> 
+            
             &nbsp;
             <div class="back">
                 <div class="containerz">
-                    <form action="action_page.php">
+                    <form action="https://professorcooke.org/forms/processform.php">
                         <div class="input-group">
-                            <input type="text" id="fname" name="firstname" required>
-                            <label for="fname">Full Name</label>
+                            <input type="text" id="firstname" name="firstname" required>
+                            <label for="fname">First Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" id="lastname" name="lastname" required>
+                            <label for="lname">Last Name</label>
                         </div>
                         <div class="input-group">
                             <input type="text" id="email" name="email" required>
@@ -47,7 +52,8 @@
                             <textarea id="message" name="message" style="height:200px" required></textarea>
                             <label for="message">Message</label>
                         </div>
-                        <input type="submit" value="Submit">
+                        <input type="submit" value="submit">
+                        
                     
                     </form>
                 </div>
