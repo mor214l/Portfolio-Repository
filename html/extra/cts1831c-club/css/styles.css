@@ -1,0 +1,204 @@
+/* Existing styles remain unchanged */
+
+/* Add styles for the new and main sections */
+.new-section {
+  text-align: center;
+  position: relative;
+    width: 41%;
+    height: 9%;
+    padding: 8px 6px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    background-color: #96713b;
+    left: 12px;
+  }
+  
+  .main-section {
+    text-align: center;
+    position: relative;
+    left: -5px;
+    width: 41%;
+    height: 9%;
+    padding: 8px 6px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    background-color: #96713b;
+    
+  }
+  .main-section2 {
+    text-align: center;
+    position: relative;
+    width: 38%;
+    height: 9%;
+    padding: 8px 6px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    background-color: #96713b;
+    left: 30%;
+    bottom: -22px;
+    justify-content: center;
+  }
+  .container{
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+  }
+  .container2 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 6px;
+}
+.item {
+  text-align: center;
+  right: 59px;
+  width: 40%;
+  height: 160px;
+  padding: 8px 6px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  background-color: #96713b;
+}
+.item-1 {
+  top: 300px;
+}
+
+  .copyright {
+    float: left;
+  }
+
+  body {
+    background-color: black;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+  }
+  
+  p {
+    font-family: Georgia, serif;
+    font-size: 14px;
+  }
+  table{
+    background-color: #76511c;
+  }
+  mark {
+    background-color: rgb(43, 82, 48);
+    color: black;
+  }
+
+  button {
+    background-color: #76511c;
+    margin-top: 10px;
+    transition: border-radius ease-in 1s;
+    transition: background-color ease-in 1s;
+}
+
+button:hover {
+  background-color: rgb(23, 58, 29);
+  border-radius: 10px;
+}
+
+
+.current-button:hover { 
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+} 
+a.button {
+display: inline-block;
+outline: 0;
+cursor: pointer;
+border: 1px solid #1d1c1d4d;
+font-weight: 700;
+background: #ffffff;
+padding: 0 8px 1px;
+font-size: 13px;
+border-radius: 4px;
+color: rgb(29, 28, 29);
+height: 15px;
+min-width: 56px;
+transition: all 80ms linear;
+:hover{
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 8%);
+    background: rgba(248,248,248,1);
+}
+}
+#Imgloc {
+  position: relative;
+  left: 63%;
+}
+div.relative {
+  position: relative;
+  left: 80px;
+}
+hr {
+  clear: both;
+  visibility: hidden;
+}
+.button {
+  background-color: rgb(23, 58, 29);
+}
+.title {
+  position: relative;
+  width: 60%;
+  left: 8%;
+}
+@media (min-width: 1144px){
+  .G1 { 
+    transform: translate(20px, 85px) rotate(-30deg); 
+  } 
+
+  .e1 { 
+    transform: translate(13px, 60px) rotate(-25deg); 
+  } 
+
+  .e2 { 
+    transform: translate(6px, 40px) rotate(-20deg); 
+  } 
+
+  .k1 { 
+    transform: translate(3px, 23px) rotate(-15deg); 
+  } 
+
+  .s1 { 
+    transform: translate(2px, 14px) rotate(-10deg); 
+  } 
+
+  .f { 
+    transform: translate(1px, 8px) rotate(-5deg); 
+  } 
+
+  .o { 
+    transform: translate(0px, 5px) rotate(0deg); 
+  } 
+
+  .r { 
+    transform: translate(-1px, 8px) rotate(5deg); 
+  } 
+
+  .G2 { 
+    transform: translate(-2px, 14px) rotate(10deg); 
+  } 
+
+  .e3 { 
+    transform: translate(-3px, 25px) rotate(15deg); 
+  } 
+
+  .e4 { 
+    transform: translate(-6px, 40px) rotate(20deg); 
+  } 
+
+  .k2 { 
+    transform: translate(-14px, 60px) rotate(25deg); 
+  } 
+
+  .s2 { 
+    transform: translate(-20px, 80px) rotate(30deg); 
+  } 
+  span { 
+    display: inline-block; 
+  } 
+}

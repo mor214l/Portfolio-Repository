@@ -1,0 +1,41 @@
+body {
+    background-color: #25591f;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 1.25em;
+}
+form {
+    display: flex;
+}
+form.underneath {
+    display: block;
+}
+fieldset {
+    background-color: #634732db;
+    margin: 5px;
+    padding: 5px;
+}
+legend {
+    background-color: #818c3c;
+    color: rgb(18, 27, 9);
+    font-size: larger;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+label {
+    display: inline-block;
+    font-weight: bold;
+    text-align: right;
+    vertical-align: top;
+    width: 180px;
+}
+input.button {
+    background-color: #45714a;
+    padding: 5px 12px;
+    cursor: pointer;
+    height: 15px;
+    width: 31px;
+    display: inline-block;
+    outline: 0;
+}
