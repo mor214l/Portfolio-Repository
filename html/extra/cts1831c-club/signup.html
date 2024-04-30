@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Client Form</title>
+        <link rel="stylesheet" href="css/signup.css">
+        <script src="scripts/signup.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Archery Club Sign Up Form</h1>
+            <hr>
+        </header>
+        <main>
+            <!-- Use method="post" for a secure submission of form data -->
+            <form name="clientForm" method="get" action="https://professorcooke.org/forms/processform.php" class="underneath" novalidate>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="firstName">*First Name:</label> <input type="text" name="firstName" id="firstName" required><br>
+                    <label for="lastName">*Last Name:</label> <input type="text" name="lastName" id="lastName" required><br>
+                    <label for="clientAge">Age:</label> <input type="number" name="clientAge" id="clientAge"><br>
+                    <label for="clientBirthday">Birthday:</label> <input type="date" name="clientBirthday" id="clientBirthday" value="2006-01-01"><br>
+                    <label for="experience">Experience with archery?:</label> <select name="experience" id="experience" size="5" multiple>
+                        <option value="LI">Less than 1</option>
+                        <option value="ON">1</option>
+                        <option value="TW">2</option>
+                        <option value="THR">3</option>
+                        <option value="FOU">4</option>
+                        <option value="FIV">5</option>
+                        <option value="MF">More than 5</option>
+                        <option value="MT">More Than 10</option>
+                    </select><br>
+                    <label for="clientPhone">Phone #:</label> <input type="tel" name="clientPhone" id="clientPhone" placeholder="(xxx) xxx-xxxx"><br>
+                    <label for="clientComments">Comments:</label> <textarea name="clientComments" id="clientComments" cols="40" rows="5">Anything you wish to tell us?</textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Demographic Information</legend>
+                    <label for="clientEmail">*Email:</label> <input type="email" name="clientEmail" id="clientEmail"><br><label for="username">*UserName:</label> <input type="text" name="username" minlength = "6" maxlength = "12" id="username" required><br>
+                    <label for="clientPassword">*Password:</label> <input type="password" name="clientPassword" id="clientPassword" required><br>
+                    <label for="clientWebSite">Web Site:</label> <input type="url" name="clientWebSite" id="clientWebSite" value="https://broward.edu"><br>
+                    <label for="countyBroward">County:</label> <input type="radio" name="clientCounty" id="countyBroward" value="Broward" checked> Broward <input type="radio" name="clientCounty" value="Miami-Dade"> Miami-Dade <input type="radio" name="clientCounty" value="Palm Beach"> Palm Beach<br>
+                    <label for="newsletter">Subscribe to Newsletter:</label> <input type="checkbox" name="newsletter" id="newsletter" checked><br> <!-- This is a dark pattern -->
+                    <label for="clientPhoto">Photo:</label> <input type="file" name="clientPhoto" id="clientPhoto"><br>
+                <input type="submit, button" class="button" value= "Send" onclick="return myFunction(), validateForm(clientForm)">
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <hr>
+            &copy; Copyright 2024 Broward College
+        </footer>
+    </body>
+</html>
